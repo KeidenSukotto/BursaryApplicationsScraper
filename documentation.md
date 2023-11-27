@@ -66,5 +66,3 @@ The `FileUtilities` class in `source/file_utils.py` offers a method for appendin
 ## Conclusion
 
 The Bursary Scraper simplifies the process of finding open bursaries on the Graduates24 website. Regularly running this scraper ensures that the latest open bursary links are captured and stored for easy access.
-
-*Note: Make sure to comply with the terms of use of the targeted website, and consider the ethical implications of web scraping.*
