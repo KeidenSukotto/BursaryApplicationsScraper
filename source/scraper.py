@@ -90,7 +90,7 @@ class Scraper:
             today_date = DateUtilities.convert_str_date_to_datetime_object(string_date=today_date)
 
             if DateUtilities.is_date_greater_than_or_equal(first_date=bursary_closing_date, second_date=today_date):
-                FileUtilities.store(data=bursary_link)
+                FileUtilities.store(data=bursary_link, file_path="./data/open_bursaries_links")
 
     @classmethod
     def execute_scraper(cls) -> None:
