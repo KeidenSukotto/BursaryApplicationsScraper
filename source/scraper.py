@@ -1,7 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
-from date_utils import DateUtilities
-from file_utils import FileUtilities
+from source.date_utils import DateUtilities
+from source.file_utils import FileUtilities
 
 
 class Scraper:
